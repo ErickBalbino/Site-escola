@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/*Cabeçalho*/
+/* Logo*/
+.cabecalho_logo{
+    background-color: #49f477bb;
+    height: 100px;
+}
+.cabecalho_menu-imagem{
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.cabecalho_logo-imagem{
+    display: inline;
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+/*Navegação*/
+.cabecalho_menu{
+    background-color: #27823f;
+    height: 25px;
+}
+.cabecalho_menu-item{
+    display: inline-block;
+    font-size: 14pt;
+    color: #ffffff;
+}
+.cabecalho_menu-item a{
+    display: inline-block;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+.cabecalho_menu-item a:hover{
+    color: yellow;
+}
+.icone_menu{
+    color: #eeeeee;
+}
+
+/*corpo do site*/
+body{
+    background-color: #1d37ce;
+}
+.corpo_site{
+    width: 1320px;
+}
+.titulo_curso{
+    color: #eeeeee;
+    font-size: 16pt;
+    padding-left: 20px;
+    padding-top: 60px;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.paragrafo_curso{
+    color: #eeeeee;
+    font-size: 13pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 35px;
+    padding-top: 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.titulo_sobre{
+    color: #eeeeee;
+    font-size: 16pt;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.paragrafo_sobre{
+    color: #eeeeee;
+    font-size: 13pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 35px;
+    padding-top: 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.titulo_atuacao{
+    color: #eeeeee;
+    font-size: 16pt;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.paragrafo_atuacao{
+    color: #eeeeee;
+    font-size: 13pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 35px;
+    padding-top: 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.linha{
+    width: 1344px;
+    margin-top: 80px;
+    border-bottom: 3px dotted #000;
+}
+/* Rodapé */
+.secao_rodape{
+    width: 1330px;
+    display: flex;
+    justify-content: space-around;
+}
+/*Contato*/
+.rodape{
+    background-color: #1244fa;
+    color: #000;
+    padding-top: 40px;
+    font-weight: 550;
+}
+.rodape_contato-titulo{
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.rodape_contato-secao{
+    font-size: 12pt;
+    padding-left: 30px;
+    line-height: 1.2;
+}
+.rodape_contato-secao:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+/* Redes sociais*/
+.paragrafo_redessociais{
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.rodape_redessociais-titulo{
+    font-size: 14pt;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.imagem_instagram{
+    padding-left: 10px;
+}
+.imagem_facebook{
+    padding-left: 5px;
+}
+/* Copyright */
+.rodape_copyright{
+    display: inline;
+}
+.imagemm_copy-governo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.rodape_link{
+    float: right;
+    padding-top: 70px;
+    padding-right: 20px;
+    text-decoration: underline;
+    font-size: 13pt;
+}

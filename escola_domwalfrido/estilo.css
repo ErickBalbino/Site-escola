@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+/* Cabeçalho */
+.cabecalho_logo{
+    height: 110px;
+    background-color:   #85C3FF;
+    width: 100%;
+}
+.cabecalho_menu-imagem{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.cabecalho_logo-imagem{
+    display: inline;
+    float: right;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+.cabecalho_menu{
+    background-color: #0085FF;
+    height: 25px;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.664);
+    margin-bottom: 10px;
+}
+.cabecalho_menu-item{
+    display: inline;
+    text-decoration: none;
+    font-size: 12pt;
+}
+.cabecalho_menu-item a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.cabecalho_menu-item a:hover{
+    color: #ffffff;
+}
+.cabecalho_icone{
+    display: inline;
+    color: #000000;
+}
+.cabecalho_imagem-escola{
+    border-radius: 50%;
+    margin: 40px 560px;
+}
+/* Corpo do site */
+body{
+    background-color: lightgrey;
+    margin: auto;
+}
+.titulo_principal{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 25pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    color: blue;
+    text-shadow: 2px 2px #00000081;
+}
+.corpo_site{
+    background-color: lightgrey;
+    width: 1310px;
+    margin: auto;
+}
+.introducao{
+    background-color: lightgrey;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 14pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+a.link_mapa{
+    text-decoration: underline;
+    color: rgba(0, 0, 255, 0.753);
+}
+.subtitulo_diferenciais{
+    font-size: 15pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    padding-top: 20px;
+    text-decoration: underline green 3px;
+}
+.paragrafo_diferenciais{
+    background-color: lightgrey;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 14pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+.lista_diferenciais{
+    font-size: 14pt;
+    background-color: lightgrey;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-left: 40px;
+    list-style-type: square;
+}
+.subtitulo_cursos{
+    font-size: 15pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    padding-top: 20px;
+    text-decoration: underline green 3px;
+}
+.paragrafo_cursos{
+    background-color: lightgrey;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 14pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+abbr{
+    text-decoration: none;
+}
+/* Cursos */
+.secao_cursos{
+    display: flex;
+    justify-content: space-around;
+}
+/* Cursos de tecnologia*/
+.subtitulo_curso-tecnologia{
+    font-size: 13pt;
+    text-transform: uppercase;
+    padding: 30px;
+    font-weight: bold;
+}
+.subtitulo_curso-tecnologia--redes{
+    font-size: 10pt;
+    padding-left: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.imagem_curso-redes{
+    padding-left: 145px;
+}
+.subtitulo_curso-tecnologia--informatica{
+    font-size: 10pt;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.imagem_curso-informatica{
+    padding-left: 140px;
+}
+/* Cursos da área da saúde */
+.subtitulo_curso-saude{
+    font-size: 13pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px;
+    
+}
+.subtitulo_curso-saude--sb{
+    font-size: 10pt;
+    padding-left: 100px;
+    padding-top: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.imagem_curso-sb{
+    padding-top: 10px;
+    padding-left: 130px;
+}
+.subtitulo_curso-saude--enfermagem{
+    font-size: 10pt;
+    padding-left: 100px;
+    padding-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.imagem_curso-enfermagem{
+    display: flex;
+    padding-left: 130px;
+}
+/* Rodapé */
+.secao_rodape{
+    display: flex;
+    justify-content: space-around;
+}
+/*Contato*/
+.rodape{
+    background-color: #3d3d3d;
+    color: #eeeeee;
+    margin-top: 20px;
+    padding: 40px;
+}
+.rodape_contato-titulo{
+    font-size: 14pt;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.rodape_contato-secao{
+    font-size: 12pt;
+    padding-left: 20px;
+    line-height: 1.2;
+}
+.rodape_contato-secao:hover{
+    text-decoration: underline;
+    color: #0084ffdc;
+}
+/* Redes sociais*/
+.paragrafo_redessociais{
+    margin-bottom: 10px;
+}
+.rodape_redessociais-titulo{
+    font-size: 14pt;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.imagem_facebook{
+    padding-left: 10px;
+}
+/* Copyright */
+.rodape_copyright{
+    display: inline;
+}
+.imagemm_copy-governo{
+    margin-top: 10px;
+}
+.rodape_link{
+    float: right;
+    padding-top: 70px;
+    text-decoration: underline;
+    font-size: 13pt;
+}
